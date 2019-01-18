@@ -2528,8 +2528,18 @@ No silk outline, but tDocu layer shows pin location.
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="66.04" y1="20.32" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="20.32" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="15.24" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="A4"/>
+<wire x1="91.44" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="22.86" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<junction x="66.04" y="20.32"/>
+<pinref part="U2" gate="G$1" pin="B4"/>
+<wire x1="121.92" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="127" y1="22.86" x2="127" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="127" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<junction x="66.04" y="15.24"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J$1" pin="1"/>
