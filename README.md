@@ -5,8 +5,6 @@ This repository contains a breakout board for the 9-DOF Inertial Measurement Uni
 ### Note
 This board has not yet been produced and tested. As this is one of my first designs I welcome any comments or suggestions that you might have.
 
-I have some clearance issue in Eagle with the footprint of the ICM-20948. If someone knows how to fix this, please let me know.
-
 ## Bill of Material
 
 - U1: NCP563SQ18T1G, 1.8v voltage regulator ([data sheet](https://www.onsemi.com/pub/Collateral/NCP562-D.PDF))
@@ -14,7 +12,6 @@ I have some clearance issue in Eagle with the footprint of the ICM-20948. If som
 - U3: ICM-20948, IMU, ([data sheet](http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf))
 - C1, C2, C3: Capacitor 0402, 0.1uF
 - C4, C5: Capacitor 0402, 1.0uF
-- R1: Resistor 0402, 10kOhm
 - J1, J2: 3-pin 0.1'/2.54mm connectors
 
 ## Repository Contents
