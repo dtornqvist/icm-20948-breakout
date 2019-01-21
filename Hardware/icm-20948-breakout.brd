@@ -603,10 +603,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="12.7832" y1="3.096" x2="12.85" y2="3.1628" width="0.2032" layer="1"/>
 <wire x1="10.164" y1="3.096" x2="9.666" y2="3.096" width="0.2032" layer="1"/>
 <wire x1="9.666" y1="3.096" x2="9.421" y2="3.341" width="0.2032" layer="1"/>
-<wire x1="11.376" y1="4.626" x2="11.35" y2="4.6" width="0.2032" layer="1"/>
-<wire x1="11.35" y1="4.6" x2="9.588" y2="4.6" width="0.2032" layer="1"/>
-<wire x1="9.588" y1="4.6" x2="9.421" y2="4.433" width="0.2032" layer="1"/>
-<wire x1="11.376" y1="5.296" x2="11.376" y2="4.626" width="0.2032" layer="1"/>
+<wire x1="11.376" y1="5.296" x2="11.376" y2="3.38" width="0.2032" layer="1"/>
+<wire x1="11.376" y1="3.38" x2="11.092" y2="3.096" width="0.2032" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="P$2"/>
