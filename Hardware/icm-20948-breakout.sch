@@ -2123,7 +2123,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </class>
 </classes>
 <parts>
-<part name="U3" library="david-mems" deviceset="ICM-20948" device="QFN24-COARSE" value="ICM-20948QFN24-COARSE"/>
+<part name="U3" library="david-mems" deviceset="ICM-20948" device="QFN24-COARSE" value="ICM-20948"/>
 <part name="U2" library="david-mems" deviceset="NTS0104" device="DHVQFN14" value="NTS0104"/>
 <part name="C1" library="FaBo-Capacitor" deviceset="CAPACITOR" device="-0402" value="0.1uF"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
