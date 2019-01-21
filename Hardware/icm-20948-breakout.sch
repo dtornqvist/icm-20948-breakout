@@ -544,14 +544,56 @@ Source: &lt;a href="http://www.microchip.com/packaging"&gt;www.microchip.com/pac
 <wire x1="1" y1="0.6" x2="-1" y2="0.6" width="0.1016" layer="21"/>
 <circle x="-0.75" y="-0.3" radius="0.111803125" width="0.05" layer="21"/>
 </package>
+<package name="SPARKFUN-SENSORS_MPU-9250">
+<description>QFN-24NP package for the MPU-9250 based on data in the
+product specification</description>
+<circle x="-0.98" y="0.98" radius="0.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-1.24" x2="-1.6" y2="-1.58" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.58" x2="-1.24" y2="-1.58" width="0.127" layer="21"/>
+<wire x1="1.24" y1="1.58" x2="1.54" y2="1.58" width="0.127" layer="21"/>
+<wire x1="1.58" y1="1.24" x2="1.58" y2="1.58" width="0.127" layer="21"/>
+<wire x1="-1.58" y1="1.34" x2="-1.32" y2="1.56" width="0.127" layer="21"/>
+<wire x1="1.24" y1="-1.58" x2="1.58" y2="-1.58" width="0.127" layer="21"/>
+<wire x1="1.58" y1="-1.58" x2="1.58" y2="-1.24" width="0.127" layer="21"/>
+<smd name="1" x="-1.6" y="1" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="2" x="-1.6" y="0.6" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="3" x="-1.6" y="0.2" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="4" x="-1.6" y="-0.2" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="5" x="-1.6" y="-0.6" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="6" x="-1.6" y="-1" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="7" x="-1" y="-1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="8" x="-0.6" y="-1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="-0.2" y="-1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="0.2" y="-1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="11" x="0.6" y="-1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="12" x="1" y="-1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="1.6" y="-1" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="14" x="1.6" y="-0.6" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="15" x="1.6" y="-0.2" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="16" x="1.6" y="0.2" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="17" x="1.6" y="0.6" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="18" x="1.6" y="1" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="19" x="1" y="1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="20" x="0.6" y="1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="21" x="0.2" y="1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="22" x="-0.2" y="1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="23" x="-0.6" y="1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="24" x="-1" y="1.6" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<text x="-0.9" y="-0.8" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1" y="0.5" size="0.4064" layer="27">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ICM-20948">
 <description>&lt;b&gt;ICM-20948&lt;/b&gt;&lt;br /&gt;
 ICM-20948</description>
-<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <pin name="!CS" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="AD0/SDO" x="17.78" y="-5.08" length="middle" rot="R180"/>
@@ -566,7 +608,8 @@ ICM-20948</description>
 <pin name="VDD" x="-17.78" y="7.62" length="middle"/>
 <pin name="VDDIO" x="-17.78" y="5.08" length="middle"/>
 <text x="-12.7" y="10.414" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-16.002" y="-8.128" size="1.27" layer="96" font="vector" align="top-left">ICM-20948, 9-axis IMU, 16g, 2000dps</text>
+<text x="-16.002" y="-10.668" size="1.27" layer="96" font="vector" align="top-left">ICM-20948, 9-axis IMU, 16g, 2000dps</text>
+<pin name="RESV_GND" x="-17.78" y="-7.62" length="middle"/>
 </symbol>
 <symbol name="NTS0104">
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -614,6 +657,27 @@ ICM-20948</description>
 <connect gate="G$1" pin="GND" pad="18"/>
 <connect gate="G$1" pin="INT" pad="12"/>
 <connect gate="G$1" pin="REGOUT" pad="10"/>
+<connect gate="G$1" pin="RESV_GND" pad="20"/>
+<connect gate="G$1" pin="SCL/SCLK" pad="23"/>
+<connect gate="G$1" pin="SDA/SDI" pad="24"/>
+<connect gate="G$1" pin="VDD" pad="13"/>
+<connect gate="G$1" pin="VDDIO" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="QFN24-COARSE" package="SPARKFUN-SENSORS_MPU-9250">
+<connects>
+<connect gate="G$1" pin="!CS" pad="22"/>
+<connect gate="G$1" pin="AD0/SDO" pad="9"/>
+<connect gate="G$1" pin="AUX_CL" pad="7"/>
+<connect gate="G$1" pin="AUX_DA" pad="21"/>
+<connect gate="G$1" pin="FSYNC" pad="11"/>
+<connect gate="G$1" pin="GND" pad="18"/>
+<connect gate="G$1" pin="INT" pad="12"/>
+<connect gate="G$1" pin="REGOUT" pad="10"/>
+<connect gate="G$1" pin="RESV_GND" pad="20"/>
 <connect gate="G$1" pin="SCL/SCLK" pad="23"/>
 <connect gate="G$1" pin="SDA/SDI" pad="24"/>
 <connect gate="G$1" pin="VDD" pad="13"/>
@@ -2059,7 +2123,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </class>
 </classes>
 <parts>
-<part name="U3" library="david-mems" deviceset="ICM-20948" device=""/>
+<part name="U3" library="david-mems" deviceset="ICM-20948" device="QFN24-COARSE" value="ICM-20948QFN24-COARSE"/>
 <part name="U2" library="david-mems" deviceset="NTS0104" device="DHVQFN14" value="NTS0104"/>
 <part name="C1" library="FaBo-Capacitor" deviceset="CAPACITOR" device="-0402" value="0.1uF"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -2191,28 +2255,34 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="-50.8" y1="58.42" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-43.18" y="55.88"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="55.88" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="-38.1" y1="71.12" x2="-43.18" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="71.12" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="55.88" x2="-50.8" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="-50.8" y1="55.88" x2="-50.8" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-30.48" y1="5.08" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="-20.32" y1="20.32" x2="-20.32" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-30.48" y="2.54"/>
-<wire x1="27.94" y1="2.54" x2="-20.32" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-20.32" y="2.54"/>
+<wire x1="27.94" y1="2.54" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="3"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<wire x1="-20.32" y1="20.32" x2="-22.86" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="20.32" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-22.86" y="2.54"/>
+<pinref part="U3" gate="G$1" pin="RESV_GND"/>
+<wire x1="-22.86" y1="17.78" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="17.78" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-22.86" y="17.78"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
