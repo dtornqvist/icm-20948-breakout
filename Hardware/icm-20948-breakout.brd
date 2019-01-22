@@ -366,7 +366,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="oshpark-2layer">
+<designrules name="oshpark-2layer *">
 <description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
@@ -428,7 +428,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="14mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -633,20 +633,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U3" pad="18"/>
 <contactref element="U3" pad="20"/>
 <wire x1="15.174" y1="1.714" x2="15.174" y2="2.492" width="0.2032" layer="1"/>
-<wire x1="10.8987875" y1="5.78" x2="10.904" y2="5.78" width="0.2032" layer="1"/>
-<wire x1="10.904" y1="5.78" x2="11.194" y2="6.07" width="0.2032" layer="1"/>
-<wire x1="10.704" y1="5.176" x2="10.704" y2="5.5852125" width="0.2032" layer="1"/>
-<wire x1="10.704" y1="5.5852125" x2="10.8987875" y2="5.78" width="0.2032" layer="1"/>
 <wire x1="5.216" y1="2.636" x2="4.37" y2="2.636" width="0.4064" layer="1"/>
 <wire x1="4.37" y1="2.636" x2="4.18" y2="2.446" width="0.4064" layer="1"/>
 <via x="4.2" y="3.45" extent="1-16" drill="0.35"/>
 <via x="3.2" y="7.65" extent="1-16" drill="0.35"/>
 <via x="17.4" y="7.5" extent="1-16" drill="0.35"/>
-<wire x1="10.104" y1="4.176" x2="9.624" y2="4.176" width="0.2032" layer="1"/>
-<wire x1="9.624" y1="4.176" x2="9.45" y2="4.35" width="0.2032" layer="1"/>
-<wire x1="9.45" y1="4.35" x2="9.45" y2="5.7" width="0.2032" layer="1"/>
 <via x="3.15" y="0.75" extent="1-16" drill="0.35"/>
-<wire x1="10.704" y1="5.176" x2="10.104" y2="4.176" width="0" layer="19" extent="1-1"/>
+<wire x1="10.8987875" y1="5.78" x2="10.904" y2="5.78" width="0.2032" layer="1"/>
+<wire x1="10.904" y1="5.78" x2="11.194" y2="6.07" width="0.2032" layer="1"/>
+<wire x1="10.704" y1="5.176" x2="10.704" y2="5.5852125" width="0.2032" layer="1"/>
+<wire x1="10.704" y1="5.5852125" x2="10.8987875" y2="5.78" width="0.2032" layer="1"/>
+<wire x1="10.104" y1="4.176" x2="9.524" y2="4.176" width="0.2032" layer="1"/>
+<wire x1="9.45" y1="4.25" x2="9.45" y2="6.3" width="0.2032" layer="1"/>
+<wire x1="9.524" y1="4.176" x2="9.45" y2="4.25" width="0.2032" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="C1" pad="P$1"/>
@@ -776,16 +775,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="23,1,324ef38ef08f314f"/>
-<approved hash="23,1,769eeb5ee87e75be"/>
-<approved hash="23,1,c23423f42289c349"/>
-<approved hash="23,1,d421b7e1b600d5c0"/>
-<approved hash="23,1,4a4aab8aa8a54965"/>
-<approved hash="23,1,bb697aa97b09bac9"/>
-<approved hash="23,1,117cf1bcf18d114d"/>
-<approved hash="23,1,cb6d2aad297cc8bc"/>
-</errors>
 </board>
 </drawing>
 </eagle>
