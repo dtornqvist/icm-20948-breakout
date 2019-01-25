@@ -164,6 +164,7 @@
 <text x="15.51" y="4.25" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0" align="center-left">VCC</text>
 <text x="15.51" y="1.7" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0" align="center-left">GND</text>
 <text x="15.55" y="6.8" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0" align="center-left">AD0</text>
+<text x="7.9" y="7.55" size="0.6096" layer="21" font="vector" ratio="20">v1.0 2018-01-25</text>
 </plain>
 <libraries>
 <library name="david-mems">
