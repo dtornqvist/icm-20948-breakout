@@ -3,7 +3,7 @@
 This repository contains a breakout board for the 9-DOF Inertial Measurement Unit (IMU) from TDK, ICM-20948 ([data sheet](https://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf)). The i2c communication pins and the interrupt pin has external connection. The board is designed for 3.3v power supply, as the IMU requires 1.8v IO-levels there is a voltage level translator that translate IO-levels to/from the supply voltage. As the voltage level translator contains internal pull up resistors, there is no need to have extra pull up resistors on the IO-lines.
 
 ### Note
-This board has not yet been produced and tested. As this is one of my first designs I welcome any comments or suggestions that you might have.
+I have done some initial tests of this board and it seems to work just fine. I have also done an (Arduino library)[https://github.com/dtornqvist/icm-20948-arduino-library] for getting the data out.
 
 ## Bill of Material
 
